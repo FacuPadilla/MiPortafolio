@@ -10,7 +10,7 @@ const Contactame = () => {
 
     return (
         <div id="contactame">
-            <h3 className="text-3xl text-slate-700 dark:text-white mt-12 mb-10 px-10 font-bold tracking-widest text-center">Contact me</h3>
+            <h3 className="text-5xl text-slate-700 dark:text-white mt-12 mb-10 px-10 font-bold tracking-widest text-center">Contact me</h3>
             <section className="flex flex-col w-[90%] m-auto">
                 <form action="" className="w-[90%] md:max-w-[600px] m-auto">
                     <div>

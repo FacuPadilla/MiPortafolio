@@ -51,7 +51,7 @@ I am a software engineer who specializes in designing and developing exceptional
           <div className="flex text-center justify-center my-6 space-x-5">
             <img src="../src/img/spainFlag.png" alt="" width={'50px'}  />
             <p className="font-bold my-3 mx-2">Spanish(Native)</p>
-            <img src="../src\img\ukFlag.png" alt="" width={'50px'}  />
+            <img src="../src/img\ukFlag.png" alt="" width={'50px'}  />
             <p className="font-bold my-3 mx-2">English(Advanced)</p>
           </div>
         </section>
@@ -77,7 +77,7 @@ I am a software engineer who specializes in designing and developing exceptional
             <h3>Expert in <span
             class='text-sky-500 font-bold text-lg'>@JavaScript</span></h3>
             {/* <h4 class='text-sm pb-5'>Septiembre 2023 - Diciembre 2024</h4> */}
-            <ul className="text-[19px]">
+            <ul className="text-[19px] ">
               <li class='flex items-center py-2 '>
                 <span class='pr-2 text-sky-500 font-black'>&#9655;</span>
                 <p class='text-stone-900 dark:text-cyan-50 font-normal px-5'>DOM manipulation: Create, modify and delete HTML elements dynamically.
@@ -325,35 +325,35 @@ I am a software engineer who specializes in designing and developing exceptional
             <ul className="flex lg:items-center md:space-x-[40px] lg:space-x-[80px] space-x-4">
 
               <li>
-                <img src="src\img\css icon.png" alt="" width={'50px'}/>
+                <img src="../src/img/css icon.png" alt="" width={'50px'}/>
                 <p className="text-center mt-2 font-bold">CSS</p>
                 </li>
               <li>
-                <img src="src\img\github icon.png" alt="" width={'50px'} />
+                <img src="../src/img/github icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">GitHub</p>
                 </li>
               <li>
-                <img src="src\img\html icon.png" alt="" width={'50px'} />
+                <img src="../src/img/html icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">HTML</p>
                 </li>
               <li>
-                <img src="src\img\js icon.png" alt="" width={'50px'} />
+                <img src="../src/img/js icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">JS</p>
                 </li>
               <li>
-                <img src="src\img\next icon.png" alt="" width={'50px'} />
+                <img src="../src/img/next icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">Next.js</p>
                 </li>
               <li>
-                <img src="src\img\nodejs icon.png" alt="" width={'50px'} />
+                <img src="../src/img/nodejs icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">Node.js</p>
                 </li>
               <li>
-                <img src="src\img\postgre icon.png" alt="" width={'50px'} />
+                <img src="../src/img/postgre icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">Postgre</p>
                 </li>
               <li>
-                <img src="src\img\react icon.png" alt="" width={'50px'} />
+                <img src="../src/img/react icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">React</p>
                 </li>
             </ul>
