@@ -49,9 +49,9 @@ I am a software engineer who specializes in designing and developing exceptional
                  <section className="my-[50px]">
           {/* <h2 className=" font-bold text-center text-2xl">Languages</h2> */}
           <div className="flex text-center justify-center my-6 space-x-5">
-            <img src="src\img\spainFlag.png" alt="" width={'50px'}  />
+            <img src="../src/img/spainFlag.png" alt="" width={'50px'}  />
             <p className="font-bold my-3 mx-2">Spanish(Native)</p>
-            <img src="src\img\ukFlag.png" alt="" width={'50px'}  />
+            <img src="../src\img\ukFlag.png" alt="" width={'50px'}  />
             <p className="font-bold my-3 mx-2">English(Advanced)</p>
           </div>
         </section>
