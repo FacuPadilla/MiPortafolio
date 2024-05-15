@@ -44,7 +44,7 @@ I am a software engineer who specializes in designing and developing exceptional
           </div>
           <div class="my-10 w-full">
               <div class="w-[300px] h-[320px] m-auto bg-[url('https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/perfilCV.jpeg')]
-               lg:bg-[url('https://github.com/FacuPadilla/MiPortafolio/blob/main/src/img/perfil_cv_posta-removebg-preview.png')]
+               lg:bg-[url('https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/perfil_cv_posta-removebg-preview.png')]
                  bg-cover rounded-lg lg:rounded-2xl lg:w-[100%] lg:h-[70%] lg:bg-center lg:bg-no-repeat lg:bg-[length:617px_840px]"></div>
                  <section className="my-[50px]">
           {/* <h2 className=" font-bold text-center text-2xl">Languages</h2> */}
