@@ -43,15 +43,15 @@ I am a software engineer who specializes in designing and developing exceptional
             
           </div>
           <div class="my-10 w-full">
-              <div class="w-[300px] h-[320px] m-auto bg-[url('C:\Users\facup\OneDrive\Escritorio\projectoNuevo\src\img\perfilCV.jpeg')]
-               lg:bg-[url('C:\Users\facup\OneDrive\Escritorio\projectoNuevo\src\img\perfil_cv_posta-removebg-preview.png')]
+              <div class="w-[300px] h-[320px] m-auto bg-[url('https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/perfilCV.jpeg')]
+               lg:bg-[url('https://github.com/FacuPadilla/MiPortafolio/blob/main/src/img/perfil_cv_posta-removebg-preview.png')]
                  bg-cover rounded-lg lg:rounded-2xl lg:w-[100%] lg:h-[70%] lg:bg-center lg:bg-no-repeat lg:bg-[length:617px_840px]"></div>
                  <section className="my-[50px]">
           {/* <h2 className=" font-bold text-center text-2xl">Languages</h2> */}
           <div className="flex text-center justify-center my-6 space-x-5">
             <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/spainFlag.png" alt="" width={'50px'}  />
             <p className="font-bold my-3 mx-2">Spanish(Native)</p>
-            <img src="../src/img\ukFlag.png" alt="" width={'50px'}  />
+            <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/ukFlag.png" alt="" width={'50px'}  />
             <p className="font-bold my-3 mx-2">English(Advanced)</p>
           </div>
         </section>
