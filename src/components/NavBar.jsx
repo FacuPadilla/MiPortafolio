@@ -34,8 +34,8 @@ const NavBar = () => {
                         <li className='text-2xl  md:px-5 hover:text-sky-600' onClick={() => scrollToSection('proyectos')}><a href="#">Projects</a></li>
                         <li className='text-2xl md:px-5 hover:text-sky-600' onClick={() => scrollToSection('contactame')}><a href="#">Contact me</a></li>
                     </ul>
-                    <button id='darkButton' onClick={handleChangeTheme}>
-                        <i className="bi bi-moon-stars-fill text-sky-600 text-4xl"></i>
+                    <button id='darkButton' onClick={handleChangeTheme} className='transform transition duration-300 hover:scale-110 '>
+                        <i className="bi bi-moon-stars-fill text-sky-600 text-4xl "></i>
                         {theme === 'dark' ? <p>Dark</p> : <p>Light</p>}
                         
                     </button>
