@@ -11,7 +11,7 @@ const Proyectos = ()=> {
                 <div className="border-1 rounded-lg  *:dark:bg-slate-800
                  m-5">
                     <div className="bg-white">
-                        <img src="../src/img/Screenshot 2024-05-07 101528.png" alt=""
+                        <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/Screenshot%202024-05-07%20101528.png" alt=""
                         className="opacity-70 hover:opacity-100" />
                         <h4 className="font-bold my-2 ml-2">CONNECTINK - TATTOOS</h4>
                         <article className="flex justify-around">
@@ -38,7 +38,7 @@ The application allows tattoo artists to showcase their art, availability, and s
                 <div className="border-1 rounded-lg  *:dark:bg-slate-800
                  m-5 ">
                     <div className="bg-white">
-                        <img src="../src/img/NationNav.PNG" alt=""
+                        <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/NationNav.PNG" alt=""
                         className="opacity-70 hover:opacity-100" />
                         <h4 className="font-bold my-2 ml-2">NATIONNAV - PAISES</h4>
                         <article className="flex justify-around">

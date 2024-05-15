@@ -325,35 +325,35 @@ I am a software engineer who specializes in designing and developing exceptional
             <ul className="flex lg:items-center md:space-x-[40px] lg:space-x-[80px] space-x-4">
 
               <li>
-                <img src="../src/img/css icon.png" alt="" width={'50px'}/>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/css%20icon.png" alt="" width={'50px'}/>
                 <p className="text-center mt-2 font-bold">CSS</p>
                 </li>
               <li>
-                <img src="../src/img/github icon.png" alt="" width={'50px'} />
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/github%20icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">GitHub</p>
                 </li>
               <li>
-                <img src="../src/img/html icon.png" alt="" width={'50px'} />
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/html%20icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">HTML</p>
                 </li>
               <li>
-                <img src="../src/img/js icon.png" alt="" width={'50px'} />
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/js%20icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">JS</p>
                 </li>
               <li>
-                <img src="../src/img/next icon.png" alt="" width={'50px'} />
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/next%20icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">Next.js</p>
                 </li>
               <li>
-                <img src="../src/img/nodejs icon.png" alt="" width={'50px'} />
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/nodejs%20icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">Node.js</p>
                 </li>
               <li>
-                <img src="../src/img/postgre icon.png" alt="" width={'50px'} />
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/postgre%20icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">Postgre</p>
                 </li>
               <li>
-                <img src="../src/img/react icon.png" alt="" width={'50px'} />
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/react%20icon.png" alt="" width={'50px'} />
                 <p className="text-center mt-2 font-bold">React</p>
                 </li>
             </ul>
