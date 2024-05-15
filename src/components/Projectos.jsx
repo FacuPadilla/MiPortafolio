@@ -9,7 +9,7 @@ const Proyectos = ()=> {
 
                 {/* PRIMER PROYECTO*/}
                 <div className="border-1 rounded-lg  *:dark:bg-slate-800
-                 m-5">
+                 m-5 transform transition  hover:scale-105">
                     <div className="bg-white">
                         <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/Screenshot%202024-05-07%20101528.png" alt=""
                         className="opacity-70 hover:opacity-100" />
@@ -36,8 +36,8 @@ The application allows tattoo artists to showcase their art, availability, and s
                 {/* SEGUNDO PROYECTO*/}
 
                 <div className="border-1 rounded-lg  *:dark:bg-slate-800
-                 m-5 ">
-                    <div className="bg-white">
+                 m-5 transform transition  hover:scale-105">
+                    <div className="bg-white ">
                         <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/NationNav.PNG" alt=""
                         className="opacity-70 hover:opacity-100" />
                         <h4 className="font-bold my-2 ml-2">NATIONNAV - PAISES</h4>
@@ -48,7 +48,7 @@ The application allows tattoo artists to showcase their art, availability, and s
                                 <span className="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700">JS</span>
                             </div>
                             <div className="text-xl text-slate-600 dark:text-slate-200 pr-2 flex flex-nowrap p-2">
-                                <a href=""><i className="bi bi-github px-2"></i></a>
+                                <a href="https://github.com/FacuPadilla/PI_Countries"><i className="bi bi-github px-2"></i></a>
                                 <a href=""><i className="bi bi-eye px-2"></i></a>
                             </div>
                         </article>

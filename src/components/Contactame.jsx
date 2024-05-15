@@ -27,7 +27,7 @@ const Contactame = () => {
                         className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400 dark:text-black"></textarea>
                     </div>
                     <div className="my-3">
-                        <button onClick={handleClick} className="bg-sky-600 text-white p-3 w-full rounded-lg text-xl tracking-widest">Submit</button>
+                        <button onClick={handleClick} className="bg-sky-600 transform transition duration-500 hover:scale-105  text-white p-3 w-full rounded-lg text-xl tracking-widest">Submit</button>
                     </div>
                 </form>
             </section>

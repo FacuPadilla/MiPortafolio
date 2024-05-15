@@ -37,8 +37,12 @@ I am a software engineer who specializes in designing and developing exceptional
               <a href="https://www.linkedin.com/in/facundo-padilla-60371b26a" class="pr-2 text-4xl hover:text-sky-600"><i class="bi bi-linkedin px-2"></i></a>
               <a href="https://github.com/FacuPadilla" class="pr-2 text-4xl hover:text-sky-600"><i class="bi bi-github px-2"></i></a>
             </div>
-            <div class=" text-center border-2 rounded border-sky-500 p-4 w-[350px] text-lg tracking-widest hover:bg-sky-500 hover:dark:text-slate-900 ease-out duration-300">
+            <div class="transform transition  hover:scale-105  text-center border-2 rounded border-sky-500 p-4 w-[350px] text-lg tracking-widest hover:bg-sky-500 hover:dark:text-slate-900 ease-out duration-300">
               <button onClick={() => scrollToSection('contactame')}>CONTACT ME</button>
+            </div>
+            <div class="pr-2 space-x-4 mt-6" href="">
+              <i class="bi bi-envelope-at  text-3xl"></i>
+              <span className="text-lg hover:text-sky-600">facupadilla1904@gmail.com</span>
             </div>
             
           </div>
@@ -48,7 +52,7 @@ I am a software engineer who specializes in designing and developing exceptional
                  bg-cover rounded-lg lg:rounded-2xl lg:w-[100%] lg:h-[70%] lg:bg-center lg:bg-no-repeat lg:bg-[length:617px_840px]"></div>
                  <section className="my-[50px]">
           {/* <h2 className=" font-bold text-center text-2xl">Languages</h2> */}
-          <div className="flex text-center justify-center my-6 space-x-5">
+          <div className="flex text-center justify-center  space-x-5  ">
             <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/spainFlag.png" alt="" width={'50px'}  />
             <p className="font-bold my-3 mx-2">Spanish(Native)</p>
             <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/ukFlag.png" alt="" width={'50px'}  />
@@ -59,7 +63,7 @@ I am a software engineer who specializes in designing and developing exceptional
             </div>
         </section>
         <h2 id='experiencia' class='text-5xl text-slate-700 dark:text-white font-bold tracking-widest w-[85%] m-auto text-center pt-8 '>SKILLS</h2>
-        <section class='my-12 flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28' id="jobSection">
+        <section class='my-12 flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28 ' id="jobSection">
              <div class='flex justify-between lg:flex-col lg:w-[20%]'>
             <button type="button" onClick={() => handleJobButtonClick('job1')} className={`border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700 ${selectedJob === 'job1' ? 'border-sky-500 text-sky-500' : 'border-sky-200 hover:dark:bg-slate-800 hover:bg-slate-200'}`}>JavaScript</button>
             {/* Agrega eventos onClick para los demás botones */}
