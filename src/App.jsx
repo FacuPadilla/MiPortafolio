@@ -63,7 +63,7 @@ I am a software engineer who specializes in designing and developing exceptional
             </div>
         </section>
         <h2 id='experiencia' class='text-5xl text-slate-700 dark:text-white font-bold tracking-widest w-[85%] m-auto text-center pt-8 '>SKILLS</h2>
-        <section class='my-12 flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28 ' id="jobSection">
+        <section class='my-12 flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28 transition-all' id="jobSection">
              <div class='flex justify-between lg:flex-col lg:w-[20%]'>
             <button type="button" onClick={() => handleJobButtonClick('job1')} className={`border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700 ${selectedJob === 'job1' ? 'border-sky-500 text-sky-500' : 'border-sky-200 hover:dark:bg-slate-800 hover:bg-slate-200'}`}>JavaScript</button>
             {/* Agrega eventos onClick para los demás botones */}
@@ -73,7 +73,7 @@ I am a software engineer who specializes in designing and developing exceptional
             <button type='button' onClick={() => handleJobButtonClick('job5')} className={`border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700 ${selectedJob === 'job5' ? 'border-sky-500 text-sky-500' : 'border-sky-200 hover:dark:bg-slate-800 hover:bg-slate-200'}`}>SQL</button>
             <button type='button' onClick={() => handleJobButtonClick('job6')} className={`border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700 ${selectedJob === 'job6' ? 'border-sky-500 text-sky-500' : 'border-sky-200 hover:dark:bg-slate-800 hover:bg-slate-200'}`}>DataBase</button>
           </div>
-          <div class='my-5 lg:px-10 lg:my-0 lg:max-w-[800px]'>
+          <div class='my-5 lg:px-10 lg:my-0 lg:max-w-[800px] transition-all'>
 
 
 
