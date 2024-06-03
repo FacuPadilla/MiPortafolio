@@ -37,7 +37,7 @@ I am a software engineer who specializes in designing and developing exceptional
               <a href="https://www.linkedin.com/in/facundo-padilla-60371b26a" class="pr-2 text-4xl hover:text-sky-600"><i class="bi bi-linkedin px-2"></i></a>
               <a href="https://github.com/FacuPadilla" class="pr-2 text-4xl hover:text-sky-600"><i class="bi bi-github px-2"></i></a>
             </div>
-            <div class="transform transition  hover:scale-105  text-center border-2 rounded border-sky-500 p-4 w-[350px] text-lg tracking-widest hover:bg-sky-500 hover:dark:text-slate-900 ease-out duration-300">
+            <div class="transform transition  hover:scale-105  text-center border-2 rounded border-sky-500 p-4 md:w-[350px] text-lg tracking-widest hover:bg-sky-500 hover:dark:text-slate-900 ease-out duration-300">
               <button onClick={() => scrollToSection('contactame')}>CONTACT ME</button>
             </div>
             <div class="pr-2 space-x-4 mt-6" href="">
@@ -52,18 +52,18 @@ I am a software engineer who specializes in designing and developing exceptional
                  bg-cover rounded-lg lg:rounded-2xl lg:w-[100%] lg:h-[70%] lg:bg-center lg:bg-no-repeat lg:bg-[length:617px_840px]"></div>
                  <section className="my-[50px]">
           {/* <h2 className=" font-bold text-center text-2xl">Languages</h2> */}
-          <div className="flex text-center justify-center  space-x-5  ">
+          <div className="flex text-center justify-center  md:space-x-5  ">
             <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/spainFlag.png" alt="" width={'50px'}  />
-            <p className="font-bold my-3 mx-2">Spanish(Native)</p>
+            <p className="font-bold my-3 mx-2  text-sm">Spanish(Native)</p>
             <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/ukFlag.png" alt="" width={'50px'}  />
-            <p className="font-bold my-3 mx-2">English(Advanced)</p>
+            <p className="font-bold my-3 mx-2 text-sm">English(Advanced)</p>
           </div>
         </section>
 
             </div>
         </section>
-        <h2 id='experiencia' class='text-5xl text-slate-700 dark:text-white font-bold tracking-widest w-[85%] m-auto text-center pt-8 '>SKILLS</h2>
-        <section class='my-12 flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28 transition-all' id="jobSection">
+        <h2 id='experiencia' class='hidden text-5xl text-slate-700 dark:text-white font-bold tracking-widest w-[85%] m-auto text-center pt-8 '>SKILLS</h2>
+        <section class='my-12 hidden flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28 transition-all' id="jobSection">
              <div class='flex justify-between lg:flex-col lg:w-[20%]'>
             <button type="button" onClick={() => handleJobButtonClick('job1')} className={`border-b-2 hover:dark:bg-slate-700 w-full px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700 ${selectedJob === 'job1' ? 'border-sky-500 text-sky-500' : 'border-sky-200 hover:dark:bg-slate-800 hover:bg-slate-200'}`}>JavaScript</button>
             {/* Agrega eventos onClick para los demás botones */}
@@ -326,39 +326,39 @@ I am a software engineer who specializes in designing and developing exceptional
         </section>
         <section className="flex justify-center ">
           <div >
-            <ul className="flex lg:items-center md:space-x-[40px] lg:space-x-[80px] space-x-4">
+            <ul className="flex  items-center md:space-x-[40px] lg:space-x-[80px] space-x-3">
 
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/css%20icon.png" alt="" width={'50px'}/>
-                <p className="text-center mt-2 font-bold">CSS</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/css%20icon.png" alt="" width={'50px'} className="w-[32px] md:w-[50px]"/>
+                <p className="text-center mt-2 font-bold md:text-md hidden">CSS</p>
                 </li>
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/github%20icon.png" alt="" width={'50px'} />
-                <p className="text-center mt-2 font-bold">GitHub</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/github%20icon.png" alt="" width={'50px'}className="w-[32px] md:w-[50px]"/>
+                <p className="text-center mt-2 font-bold md:text-md hidden">GitHub</p>
                 </li>
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/html%20icon.png" alt="" width={'50px'} />
-                <p className="text-center mt-2 font-bold">HTML</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/html%20icon.png" alt="" width={'50px'} className="w-[32px] md:w-[50px]"/>
+                <p className="text-center mt-2 font-bold md:text-md hidden">HTML</p>
                 </li>
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/js%20icon.png" alt="" width={'50px'} />
-                <p className="text-center mt-2 font-bold">JS</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/js%20icon.png" alt="" width={'50px'} className="w-[32px] md:w-[50px]" />
+                <p className="text-center mt-2 font-bold md:text-md hidden">JS</p>
                 </li>
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/next%20icon.png" alt="" width={'50px'} />
-                <p className="text-center mt-2 font-bold">Next.js</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/next%20icon.png" alt="" width={'50px'} className="w-[32px] md:w-[50px]"/>
+                <p className="text-center mt-2 font-bold md:text-md hidden">Next.js</p>
                 </li>
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/nodejs%20icon.png" alt="" width={'50px'} />
-                <p className="text-center mt-2 font-bold">Node.js</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/nodejs%20icon.png" alt="" width={'50px'} className="w-[32px] md:w-[50px]"/>
+                <p className="text-center mt-2 font-bold md:text-md hidden">Node.js</p>
                 </li>
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/postgre%20icon.png" alt="" width={'50px'} />
-                <p className="text-center mt-2 font-bold">Postgre</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/postgre%20icon.png" alt="" width={'50px'} className="w-[32px] md:w-[50px]"/>
+                <p className="text-center mt-2 font-bold md:text-md hidden">Postgre</p>
                 </li>
               <li>
-                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/react%20icon.png" alt="" width={'50px'} />
-                <p className="text-center mt-2 font-bold">React</p>
+                <img src="https://raw.githubusercontent.com/FacuPadilla/MiPortafolio/main/src/img/react%20icon.png" alt="" width={'50px'} className="w-[32px] md:w-[50px]"/>
+                <p className="text-center mt-2 font-bold md:text-md hidden">React</p>
                 </li>
             </ul>
           </div>
